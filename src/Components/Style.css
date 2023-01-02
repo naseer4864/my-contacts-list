@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.cards {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    flex-basis:content;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: px;
+    width: 270px;
+    height: fit-content;
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    translate: translateZ(0);
+    transition: transform 0.25s ease-out;
+
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+}
+
+
+
+.contact-images {
+    height: 200px;
+    width: 100%;
+
+}
+
+
+input {
+    padding: 5px 5px;
+    width: 240px;
+    margin: 10px 0px;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+}
+
+.card-container > a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-container > p {
+    padding: 5px 0px;
+}
+
+.contact-header {
+    color: gray;
+    padding: 5px 0px;
+}
+
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.footer > p {
+    color: white;
+}
+
+
