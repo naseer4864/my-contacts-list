@@ -136,7 +136,7 @@ export const contacts=[
           pic:"./images/shewa.jpg",
           name:"zuliqoh Shewa",
           phone:"09137224529",
-          location:"Kwara State",
+          location:"Osun State",
           id:20
         },
         {
